@@ -15,6 +15,8 @@
 		BB996DE525F00C670028189E /* ITmmunity.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = BB996DE325F00C670028189E /* ITmmunity.xcdatamodeld */; };
 		BB996DF025F00C670028189E /* ITmmunityTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB996DEF25F00C670028189E /* ITmmunityTests.swift */; };
 		BB996DFB25F00C670028189E /* ITmmunityUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB996DFA25F00C670028189E /* ITmmunityUITests.swift */; };
+		BBC06C8225F00E6C004C753A /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = BBC06C8125F00E6C004C753A /* GoogleService-Info.plist */; };
+		BBC4E68425FE94DF00DA22FF /* data.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBC4E68325FE94DF00DA22FF /* data.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +51,8 @@
 		BB996DF625F00C670028189E /* ITmmunityUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ITmmunityUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		BB996DFA25F00C670028189E /* ITmmunityUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ITmmunityUITests.swift; sourceTree = "<group>"; };
 		BB996DFC25F00C670028189E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BBC06C8125F00E6C004C753A /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../../../Downloads/GoogleService-Info.plist"; sourceTree = "<group>"; };
+		BBC4E68325FE94DF00DA22FF /* data.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = data.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,6 +83,7 @@
 		BB996DCC25F00C660028189E = {
 			isa = PBXGroup;
 			children = (
+				BBC4E68325FE94DF00DA22FF /* data.swift */,
 				BB996DD725F00C660028189E /* ITmmunity */,
 				BB996DEE25F00C670028189E /* ITmmunityTests */,
 				BB996DF925F00C670028189E /* ITmmunityUITests */,
@@ -99,6 +104,7 @@
 		BB996DD725F00C660028189E /* ITmmunity */ = {
 			isa = PBXGroup;
 			children = (
+				BBC06C8125F00E6C004C753A /* GoogleService-Info.plist */,
 				BB996DD825F00C660028189E /* ITmmunityApp.swift */,
 				BB996DDA25F00C660028189E /* ContentView.swift */,
 				BB996DDC25F00C670028189E /* Assets.xcassets */,
@@ -241,6 +247,7 @@
 			files = (
 				BB996DE025F00C670028189E /* Preview Assets.xcassets in Resources */,
 				BB996DDD25F00C670028189E /* Assets.xcassets in Resources */,
+				BBC06C8225F00E6C004C753A /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -266,6 +273,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				BB996DE225F00C670028189E /* Persistence.swift in Sources */,
+				BBC4E68425FE94DF00DA22FF /* data.swift in Sources */,
 				BB996DDB25F00C660028189E /* ContentView.swift in Sources */,
 				BB996DE525F00C670028189E /* ITmmunity.xcdatamodeld in Sources */,
 				BB996DD925F00C660028189E /* ITmmunityApp.swift in Sources */,
@@ -427,6 +435,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_ASSET_PATHS = "\"ITmmunity/Preview Content\"";
+				DEVELOPMENT_TEAM = 8C8C3NFZLS;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = ITmmunity/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
@@ -448,6 +457,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_ASSET_PATHS = "\"ITmmunity/Preview Content\"";
+				DEVELOPMENT_TEAM = 8C8C3NFZLS;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = ITmmunity/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
