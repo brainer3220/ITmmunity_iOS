@@ -14,7 +14,7 @@ public var UrlList: Array<String> = [
     "https://coolenjoy.net",
 ]
 
-public struct Content: Hashable, Codable {
+public struct NewsContent: Hashable, Codable {
     var title: String
     var image: String?
     var hit: Int
@@ -22,7 +22,7 @@ public struct Content: Hashable, Codable {
     var url: String
 }
 
-public var dummies: Array<Content> =
+public var dummies: Array<NewsContent> =
     [
         Content(
         title: "삼성전자, 갤럭시 엑스커버 프로 OneUI 3.0 업데이트 배포",
