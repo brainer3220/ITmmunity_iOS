@@ -24,14 +24,14 @@ public struct NewsContent: Hashable, Codable {
 
 public var dummies: Array<NewsContent> =
     [
-        Content(
+        NewsContent(
         title: "삼성전자, 갤럭시 엑스커버 프로 OneUI 3.0 업데이트 배포",
         image: nil,
         hit: 784,
         numComment: 0,
         url: "www.underkg.co.kr"
     ),
-        Content(
+        NewsContent(
         title: "삼성, 'Neo QLED', TV 업계 최초 독일 VDE '아이케어' 인증 획득)",
         image: nil,
         hit: 404,
