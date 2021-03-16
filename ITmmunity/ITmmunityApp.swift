@@ -16,7 +16,6 @@ struct ITmmunityApp: App {
     }
     var body: some Scene {
         WindowGroup {
-            MainList()
 //            ContentView()
 //                .environment(\.managedObjectContext, persistenceController.container.viewContext)
         }
