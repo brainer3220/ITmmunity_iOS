@@ -53,5 +53,7 @@ struct NewsList: View {
 
 struct Preview: PreviewProvider {
     static var previews: some View {
+        NewsList()
     }
 }
+
