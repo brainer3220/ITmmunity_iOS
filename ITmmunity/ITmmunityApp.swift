@@ -16,14 +16,32 @@ struct ITmmunityApp: App {
     }
     var body: some Scene {
         WindowGroup {
-//            ContentView()
-//                .environment(\.managedObjectContext, persistenceController.container.viewContext)
+            TabView {
+                NewsList()
+//                ContentView()
+//                    .environment(\.managedObjectContext, persistenceController.container.viewContext)
+                    
+                 .tabItem {
+                    Image(systemName: "phone.fill")
+                    Text("News")
+                  }
+               Text("The content of the second view")
+                 .tabItem {
+                    Image(systemName: "tv.fill")
+                    Text("Community")
+                 }
+                Text("My Settings")
+                  .tabItem {
+                     Image(systemName: "tv.fill")
+                     Text("Settings")
+                  }
+            }
         }
     }
 }
 
 
-struct MainList: View {
+struct NewsList: View {
     var body: some View{
         List {
             ForEach(1..<10){ i in
@@ -35,6 +53,5 @@ struct MainList: View {
 
 struct Preview: PreviewProvider {
     static var previews: some View {
-        MainList()
     }
 }
