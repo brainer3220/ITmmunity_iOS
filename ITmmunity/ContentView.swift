@@ -7,7 +7,6 @@
 
 import SwiftUI
 import CoreData
-//import Firebas
 
 struct ContentView: View {
     @Environment(\.managedObjectContext) private var viewContext
