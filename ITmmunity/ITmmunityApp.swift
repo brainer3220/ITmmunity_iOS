@@ -22,16 +22,16 @@ struct ITmmunityApp: App {
 //                ContentView()
 //                    .environment(\.managedObjectContext, persistenceController.container.viewContext)
                     
-                 .tabItem {
+                 .tabItem {Color("AccentColor")
                     Image(systemName: "phone.fill")
                     Text("News")
                   }
-               Text("The content of the second view")
+               Text("Community 기능은 곧 만나 볼 수 있어요.")
                  .tabItem {
                     Image(systemName: "tv.fill")
                     Text("Community")
                  }
-                Text("My Settings")
+                Text("Settings 기능은 곧 만나 볼 수 있어요.")
                   .tabItem {
                      Image(systemName: "tv.fill")
                      Text("Settings")
