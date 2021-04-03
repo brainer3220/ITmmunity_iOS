@@ -14,6 +14,7 @@ struct ITmmunityApp: App {
     let persistenceController = PersistenceController.shared
     init(){
         FirebaseApp.configure()
+        UITabBar.appearance().isHidden = true
     }
     var body: some Scene {
         WindowGroup {
